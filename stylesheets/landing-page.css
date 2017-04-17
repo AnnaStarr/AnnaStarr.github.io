@@ -1,9 +1,3 @@
-/*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body,
 html {
     width: 100%;
@@ -11,7 +5,7 @@ html {
 }
 
 h2 {
-	color: #DCDCDC;
+	color: #000000;
 }
 
 
@@ -144,7 +138,6 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
-
 }
 
 .banner ul {
@@ -200,5 +193,50 @@ footer {
   1 a.rollover:hover {
     background: url('../images/iam.jpg'); /* Путь к файлу с заменяемым рисунком  */
    }
+   
+.hidden-block {
+	opacity:0;
+}
+
+.visible-block {
+	opacity:1;
+}
+
+#p_prldr {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	background: #0a0909;
+	z-index: 30;
+}
+
+.contpre small {
+	font-size:25px;
+}
+
+.contpre {
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	left: 50%;top: 48%;
+	margin-left:-125px;
+	margin-top:-75px;
+	color:#fff;
+	font-size:40px;
+	letter-spacing:-2px;
+	text-align:center;
+	line-height:35px;
+}
+
+#p_prldr .svg_anm {
+	position: absolute;
+	width: 41px;
+	height: 41px;
+	background: url(../images/oval.svg) center center no-repeat;
+	background-size:41px;    
+	margin: -16px 0 0 -16px;
+}
    
    
